@@ -96,3 +96,6 @@ RESULTS
 
 CONTENTS
        The folder "AdaK" contains the source code of the module main.py.
+       The folder "Supplementary material" contains the supplementary material 
+       of the paper: A pluggable Pareto front shape invariant reference set 
+       adaptation method for multi-objective optimization.
