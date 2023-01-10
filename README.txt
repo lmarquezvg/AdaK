@@ -1,6 +1,6 @@
-Documentation of the module main.py used for the experimentation of: A 
-pluggable Pareto front shape invariant reference set adaptation method for 
-multi-objective optimization.
+Documentation of the module main.py used for the experimentation of: On the 
+adaptation of reference sets using niching and pair-potential energy functions 
+for multi-objective optimization.
 
 NAME
        main.py - test a multi-objective evolutionary algorithm (MOEA)
@@ -97,5 +97,5 @@ RESULTS
 CONTENTS
        The folder "AdaK" contains the source code of the module main.py.
        The folder "Supplementary material" contains the supplementary material 
-       of the paper: A pluggable Pareto front shape invariant reference set 
-       adaptation method for multi-objective optimization.
+       of the paper: On the adaptation of reference sets using niching and 
+       pair-potential energy functions for multi-objective optimization.
