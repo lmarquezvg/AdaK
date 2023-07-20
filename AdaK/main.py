@@ -1,6 +1,7 @@
 import sys
 
 from Public.ValidateArguments import validateArguments
+from Public.ValidateObjectives import validateObjectives
 from Public.UploadAlgorithm import uploadAlgorithm
 from Public.SaveApproximationSet import saveApproximationSet
 from Public.SaveGenerations import saveGenerations
@@ -22,6 +23,7 @@ if __name__ == '__main__':
         runs = int(sys.argv[6])
         
         validateArguments(algorithm, N, problem, m, max_generations, runs)
+        m = validateObjectives(problem, m)
         
         for run in range(1, runs+1):
             print('Algorithm:', algorithm, '| Population size:', N, 
@@ -99,6 +101,6 @@ if __name__ == '__main__':
             elif (algorithm == 'RVEA-AdaKRA'):
                 main = uploadAlgorithm('RVEA-AdaK')
                 P, Data_gen = main(N, problem, m, max_generations, 6)
-            saveApproximationSet(P.obj, algorithm, problem, run, 'save_all')
+            saveApproximationSet(P.obj, algorithm, problem, run, 'save_txt')
             saveGenerations(Data_gen, algorithm, problem, run)
             del P, Data_gen, main

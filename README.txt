@@ -24,8 +24,9 @@ DESCRIPTION
 
        N
               It must be an integer greater than zero. It represents the 
-              population size. In our experiments, we use 91, 210, 156, and 275
-              for MOPs with 3, 5, 8, and 10 objective functions, respectively.
+              population size. In our experiments, we use 100, 91, 210, 156, 
+              and 275 for MOPs with 2, 3, 5, 8, and 10 objective functions, 
+              respectively.
 
        MOP
               It must be a valid MOP name. The valid MOP names are: DTLZ1, 
@@ -33,12 +34,17 @@ DESCRIPTION
               DTLZ2_MINUS, DTLZ3_MINUS, DTLZ4_MINUS, DTLZ5_MINUS, DTLZ6_MINUS, 
               DTLZ7_MINUS, WFG1, WFG2, WFG3, WFG4, WFG5, WFG6, WFG7, WFG8, 
               WFG9, WFG1_MINUS, WFG2_MINUS, WFG3_MINUS, WFG4_MINUS, WFG5_MINUS, 
-              WFG6_MINUS, WFG7_MINUS, WFG8_MINUS, and WFG9_MINUS.
+              WFG6_MINUS, WFG7_MINUS, WFG8_MINUS, WFG9_MINUS, IMOP1, IMOP2, 
+              IMOP3, IMOP4, IMOP5, IMOP6, IMOP7, IMOP8, VNT1, VNT2, and VNT3.
 
        OBJS
               It must be an integer greater than one. It represents the number 
-              of objective functions of the MOP. In our experiments, all MOPs
-              are scaled to 3, 5, 8, and 10 objective functions.
+              of objective functions of the MOP. In our experiments, all MOPs 
+              from the DTLZ, WFG, Minus-DTLZ, and Minus-WFG test suites are 
+              scaled to 3, 5, 8, and 10 objective functions. The MOPs from the
+              IMOP and VNT test suites are not scalable in the objective space.
+              IMOP1-IMOP3 have 2 objective functions, while IMOP4-IMOP8 and 
+              VNT1-VNT3 have 3 objective functions.
 
        GENS
               It must be an integer greater than or equal to zero. It 
@@ -54,7 +60,9 @@ DESCRIPTION
               with 3, 5, 8, and 10 objective functions, respectively. For WFG1-
               WFG9 the values 400, 750, 1500, and 2000 are selected for the 
               versions with 3, 5, 8, and 10 objective functions, respectively. 
-              The same values are used for the MINUS versions of each MOP.
+              The same values are used for the MINUS versions of each MOP. For 
+              IMOP1-IMOP3 we use 500 generations, while for IMOP4-IMOP8 and 
+              VNT1-VNT3 we use 550 generations.
 
        RUNS
               It must be an integer greater than zero. It represents the number 

@@ -35,7 +35,18 @@ def validateTestProblem(problem):
                       'WFG6_MINUS', 
                       'WFG7_MINUS', 
                       'WFG8_MINUS', 
-                      'WFG9_MINUS']
+                      'WFG9_MINUS',
+                      'IMOP1',
+                      'IMOP2',
+                      'IMOP3',
+                      'IMOP4',
+                      'IMOP5',
+                      'IMOP6',
+                      'IMOP7',
+                      'IMOP8',
+                      'VNT1',
+                      'VNT2',
+                      'VNT3']
     if (problem in valid_problems):
         return True
     else:
