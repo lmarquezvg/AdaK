@@ -103,7 +103,9 @@ RESULTS
        AdaK/Results/Generations/.
 
 CONTENTS
-       The folder "AdaK" contains the source code of the module main.py.
-       The folder "Supplementary material" contains the supplementary material 
-       of the paper: On the adaptation of reference sets using niching and 
-       pair-potential energy functions for multi-objective optimization.
+       The folder "AdaK" contains the source code of the module main.py. The 
+       folder "PlatEMO additional problems" contains additional problems for 
+       PlatEMO which are employed for the comparison against state-of-the-art 
+       MOEAs. The folder "Supplementary material" contains the supplementary 
+       material of the paper: On the adaptation of reference sets using niching 
+       and pair-potential energy functions for multi-objective optimization.
