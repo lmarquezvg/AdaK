@@ -106,6 +106,23 @@ CONTENTS
        The folder "AdaK" contains the source code of the module main.py. The 
        folder "PlatEMO additional problems" contains additional problems for 
        PlatEMO which are employed for the comparison against state-of-the-art 
-       MOEAs. The folder "Supplementary material" contains the supplementary 
-       material of the paper: On the adaptation of reference sets using niching 
-       and pair-potential energy functions for multi-objective optimization.
+       MOEAs.
+
+REFERENCE
+       L.A. Márquez-Vega, J.G. Falcón-Cardona, and E. Covantes Osuna, On the 
+       adaptation of reference sets using niching and pair-potential energy 
+       functions for multi-objective optimization, Swarm and Evolutionary 
+       Computation (2023), doi: 10.1016/j.swevo.2023.101408
+       
+       Or you can use the following BibTex entry:
+       
+       @article{MarquezEtAl2023,
+              author = {Luis A. M{\'a}rquez-Vega and Jes{\'u}s Guillermo Falc{\'o}n-Cardona and Edgar {Covantes Osuna}},
+              title = {{On the adaptation of reference sets using niching and pair-potential energy functions for multi-objective optimization}},
+              journal = {Swarm and Evolutionary Computation},
+              year = {2023},
+              pages = {101408},
+              issn = {2210-6502},
+              doi = {10.1016/j.swevo.2023.101408}
+       }
+
